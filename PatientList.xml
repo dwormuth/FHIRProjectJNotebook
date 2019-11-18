@@ -1,0 +1,686 @@
+<Bundle xmlns="http://hl7.org/fhir">
+   <id value="93689fc5-3ce2-4b3f-872f-e2bb722b2252"/>
+   <meta>
+      <lastUpdated value="2018-10-31T18:32:33.000-04:00"/>
+   </meta>
+   <type value="searchset"/>
+   <total value="7111"/>
+   <link>
+      <relation value="self"/>
+      <url value="http://fhir.hl7fundamentals.org/baseDstu3/Patient?_format=application%2Ffhir+xml"/>
+   </link>
+   <link>
+      <relation value="next"/>
+      <url value="http://fhir.hl7fundamentals.org/baseDstu3?_getpages=ff631df0-dd67-4e66-b9e1-2d36c392c49c&amp;_getpagesoffset=10&amp;_count=10&amp;_format=xml&amp;_pretty=true&amp;_bundletype=searchset"/>
+   </link>
+   <entry>
+      <fullUrl value="http://fhir.hl7fundamentals.org/baseDstu3/Patient/52"/>
+      <resource>
+         <Patient xmlns="http://hl7.org/fhir">
+            <id value="52"/>
+            <meta>
+               <versionId value="23"/>
+               <lastUpdated value="2018-10-10T09:40:18.000-04:00"/>
+            </meta>
+            <language value="de-AT"/>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml"> 
+                  <div class="hapiHeaderText">Pen 
+                     <b>KIKU </b> 
+                  </div> 
+                  <table class="hapiPropertyTable"> 
+                     <tbody> 
+                        <tr> 
+                           <td>Identifier</td> 
+                           <td>444444</td> 
+                        </tr> 
+                        <tr> 
+                           <td>Address</td> 
+                           <td> 
+                              <span>234 Main Street </span> 
+                              <br/> 
+                              <span>Freehold TEST </span> 
+                              <span>CA </span> 
+                              <span>USA </span> 
+                           </td> 
+                        </tr> 
+                        <tr> 
+                           <td>Date of birth</td> 
+                           <td> 
+                              <span>13 May 2017</span> 
+                           </td> 
+                        </tr> 
+                     </tbody> 
+                  </table> 
+               </div>
+            </text>
+            <identifier>
+               <system value="http://myidentifier.com/patientIds"/>
+               <value value="444444"/>
+            </identifier>
+            <active value="true"/>
+            <name>
+               <family value="kiku"/>
+               <given value="Pen"/>
+            </name>
+            <gender value="male"/>
+            <birthDate value="2018-09-23"/>
+            <deceasedDateTime value="2018-09-23T06:10:40.613Z"/>
+            <address>
+               <line value="234 Main Street"/>
+               <city value="Freehold TES 123T"/>
+               <state value="CA"/>
+               <country value="USA"/>
+            </address>
+            <maritalStatus>
+               <coding>
+                  <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+                  <code value="S"/>
+               </coding>
+            </maritalStatus>
+            <multipleBirthBoolean value="false"/>
+         </Patient>
+      </resource>
+      <search>
+         <mode value="match"/>
+      </search>
+   </entry>
+   <entry>
+      <fullUrl value="http://fhir.hl7fundamentals.org/baseDstu3/Patient/159"/>
+      <resource>
+         <Patient xmlns="http://hl7.org/fhir">
+            <id value="159"/>
+            <meta>
+               <versionId value="2"/>
+               <lastUpdated value="2017-05-28T01:36:36.000-04:00"/>
+            </meta>
+            <language value="pt-BR"/>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml"> 
+                  <p> 
+                     <b>Generated Narrative with Details</b> 
+                  </p> 
+                  <p> 
+                     <b>identifier</b>: HOSP-${CD9}${D5} (USUAL) 
+                  </p> 
+                  <p> 
+                     <b>name</b>: Mary Chambers (OFFICIAL) 
+                  </p> 
+                  <p> 
+                     <b>gender</b>: female 
+                  </p> 
+                  <p> 
+                     <b>birthDate</b>: Aug 17, 1972 
+                  </p> 
+                  <p> 
+                     <b>deceased</b>: false 
+                  </p> 
+                  <p> 
+                     <b>address</b>: 123 North 102nd Street Apt 4d Harrisburg PA 17102 USA (HOME) 
+                  </p> 
+               </div>
+            </text>
+            <identifier>
+               <use value="usual"/>
+               <system value="http://happyvalley.com/patient"/>
+               <value value="HOSP-${CD9}${D5}"/>
+            </identifier>
+            <active value="true"/>
+            <name>
+               <use value="official"/>
+               <family value="Chambers"/>
+               <given value="Mary"/>
+            </name>
+            <gender value="female"/>
+            <birthDate value="2017-05-28"/>
+            <deceasedBoolean value="true"/>
+            <address>
+               <use value="home"/>
+               <line value="123 North 102nd Street"/>
+               <line value="Apt 4d"/>
+               <city value="Harrisburg"/>
+               <state value="PA"/>
+               <postalCode value="17102"/>
+               <country value="USA"/>
+            </address>
+            <maritalStatus>
+               <coding>
+                  <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+                  <code value="S"/>
+               </coding>
+            </maritalStatus>
+            <multipleBirthInteger value="48"/>
+         </Patient>
+      </resource>
+      <search>
+         <mode value="match"/>
+      </search>
+   </entry>
+   <entry>
+      <fullUrl value="http://fhir.hl7fundamentals.org/baseDstu3/Patient/346"/>
+      <resource>
+         <Patient xmlns="http://hl7.org/fhir">
+            <id value="346"/>
+            <meta>
+               <versionId value="11"/>
+               <lastUpdated value="2017-07-16T01:53:42.000-04:00"/>
+            </meta>
+            <language value="en-GB"/>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml"> 
+                  <div class="hapiHeaderText">William 
+                     <b>SHUMAN </b> 
+                  </div> 
+                  <table class="hapiPropertyTable"> 
+                     <tbody> 
+                        <tr> 
+                           <td>Identifier</td> 
+                           <td>william.shuman</td> 
+                        </tr> 
+                        <tr> 
+                           <td>Address</td> 
+                           <td> 
+                              <span>3300 Washtenaw </span> 
+                              <br/> 
+                              <span>Ann Harbor </span> 
+                              <span>MI </span> 
+                              <span>US </span> 
+                           </td> 
+                        </tr> 
+                        <tr> 
+                           <td>Date of birth</td> 
+                           <td> 
+                              <span>01 January 2001</span> 
+                           </td> 
+                        </tr> 
+                     </tbody> 
+                  </table> 
+               </div>
+            </text>
+            <identifier>
+               <use value="usual"/>
+               <system value="http://hl7fundamentals.org"/>
+               <value value="william.shuman"/>
+            </identifier>
+            <active value="false"/>
+            <name>
+               <use value="official"/>
+               <family value="Shuman"/>
+               <given value="William"/>
+            </name>
+            <telecom>
+               <system value="phone"/>
+               <value value="(03) 5555 6789"/>
+               <use value="home"/>
+            </telecom>
+            <gender value="male"/>
+            <birthDate value="2017-07-16"/>
+            <deceasedBoolean value="true"/>
+            <address>
+               <use value="home"/>
+               <line value="3300 Washtenaw"/>
+               <city value="Ann Harbor"/>
+               <district value="Washtenaw"/>
+               <state value="MI"/>
+               <postalCode value="48104"/>
+               <country value="US"/>
+            </address>
+            <maritalStatus>
+               <coding>
+                  <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+                  <code value="S"/>
+               </coding>
+            </maritalStatus>
+            <multipleBirthBoolean value="false"/>
+            <managingOrganization>
+               <reference value="Organization/824"/>
+            </managingOrganization>
+         </Patient>
+      </resource>
+      <search>
+         <mode value="match"/>
+      </search>
+   </entry>
+   <entry>
+      <fullUrl value="http://fhir.hl7fundamentals.org/baseDstu3/Patient/347"/>
+      <resource>
+         <Patient xmlns="http://hl7.org/fhir">
+            <id value="347"/>
+            <meta>
+               <versionId value="28"/>
+               <lastUpdated value="2017-07-19T01:55:12.000-04:00"/>
+            </meta>
+            <language value="ru-RU"/>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml"> Michael Spillane Id # michael.spillane </div>
+            </text>
+            <identifier>
+               <use value="usual"/>
+               <value value="michael.spillane"/>
+            </identifier>
+            <active value="false"/>
+            <name>
+               <family value="Spillane"/>
+               <given value="Michael"/>
+            </name>
+            <name>
+               <use value="usual"/>
+               <given value="Mike"/>
+               <given value="Joseph"/>
+            </name>
+            <telecom>
+               <system value="phone"/>
+               <value value="(03) 5555 6789"/>
+               <use value="home"/>
+            </telecom>
+            <gender value="male"/>
+            <birthDate value="2017-07-19"/>
+            <deceasedBoolean value="true"/>
+            <address>
+               <extension url="https://www.hl7.org/fhir/extension-us-core-county.html">
+                  <valueString value="Washtenaw"/>
+               </extension>
+               <line value="3300 Washtenaw"/>
+               <city value="Ann Harbor"/>
+               <state value="MI"/>
+               <postalCode value="48104"/>
+               <country value="US"/>
+            </address>
+            <maritalStatus>
+               <coding>
+                  <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+                  <code value="S"/>
+               </coding>
+            </maritalStatus>
+            <multipleBirthInteger value="49"/>
+            <communication>
+               <language>
+                  <coding>
+                     <system value="urn:std:iso:639-1"/>
+                     <code value="en"/>
+                     <display value="English"/>
+                  </coding>
+                  <text value="English"/>
+               </language>
+            </communication>
+            <managingOrganization>
+               <reference value="Organization/2552"/>
+            </managingOrganization>
+         </Patient>
+      </resource>
+      <search>
+         <mode value="match"/>
+      </search>
+   </entry>
+   <entry>
+      <fullUrl value="http://fhir.hl7fundamentals.org/baseDstu3/Patient/356"/>
+      <resource>
+         <Patient xmlns="http://hl7.org/fhir">
+            <id value="356"/>
+            <meta>
+               <versionId value="5"/>
+               <lastUpdated value="2018-04-16T17:00:39.000-04:00"/>
+            </meta>
+            <language value="zh-TW"/>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml"> 
+                  <div class="hapiHeaderText">Scott 
+                     <b>KIRBY </b> 
+                  </div> 
+                  <table class="hapiPropertyTable"> 
+                     <tbody> 
+                        <tr> 
+                           <td>Identifier</td> 
+                           <td>scott.kirby</td> 
+                        </tr> 
+                        <tr> 
+                           <td>Address</td> 
+                           <td> 
+                              <span>3300 Washtenaw </span> 
+                              <br/> 
+                              <span>Ann Harbor </span> 
+                              <span>MI </span> 
+                              <span>US </span> 
+                           </td> 
+                        </tr> 
+                        <tr> 
+                           <td>Date of birth</td> 
+                           <td> 
+                              <span>25 May 1984</span> 
+                           </td> 
+                        </tr> 
+                     </tbody> 
+                  </table> 
+               </div>
+            </text>
+            <identifier>
+               <use value="official"/>
+               <value value="scott.kirby"/>
+            </identifier>
+            <active value="false"/>
+            <name>
+               <use value="usual"/>
+               <family value="Kirby"/>
+               <given value="Scott"/>
+            </name>
+            <telecom>
+               <value value="(03) 4444 4444"/>
+               <use value="home"/>
+            </telecom>
+            <gender value="unknown"/>
+            <birthDate value="2017-08-01"/>
+            <deceasedBoolean value="false"/>
+            <address>
+               <line value="4444 Fhir Street"/>
+               <city value="Springfield"/>
+               <district value="Washtenaw"/>
+               <state value="VT"/>
+               <postalCode value="48104"/>
+               <country value="US"/>
+            </address>
+            <maritalStatus>
+               <coding>
+                  <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+                  <code value="S"/>
+               </coding>
+            </maritalStatus>
+            <multipleBirthBoolean value="true"/>
+         </Patient>
+      </resource>
+      <search>
+         <mode value="match"/>
+      </search>
+   </entry>
+   <entry>
+      <fullUrl value="http://fhir.hl7fundamentals.org/baseDstu3/Patient/370"/>
+      <resource>
+         <Patient xmlns="http://hl7.org/fhir">
+            <id value="370"/>
+            <meta>
+               <versionId value="2"/>
+               <lastUpdated value="2017-08-13T01:58:13.000-04:00"/>
+            </meta>
+            <language value="nl-NL"/>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml"> 
+                  <div class="hapiHeaderText">Caro 
+                     <b>EMERALD </b> 
+                  </div> 
+                  <table class="hapiPropertyTable"> 
+                     <tbody/> 
+                  </table> 
+               </div>
+            </text>
+            <active value="true"/>
+            <name>
+               <family value="Emerald"/>
+               <given value="Caro"/>
+            </name>
+            <gender value="other"/>
+            <birthDate value="2017-08-13"/>
+            <deceasedBoolean value="false"/>
+            <maritalStatus>
+               <coding>
+                  <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+                  <code value="S"/>
+               </coding>
+            </maritalStatus>
+            <multipleBirthBoolean value="false"/>
+         </Patient>
+      </resource>
+      <search>
+         <mode value="match"/>
+      </search>
+   </entry>
+   <entry>
+      <fullUrl value="http://fhir.hl7fundamentals.org/baseDstu3/Patient/389"/>
+      <resource>
+         <Patient xmlns="http://hl7.org/fhir">
+            <id value="389"/>
+            <meta>
+               <versionId value="3"/>
+               <lastUpdated value="2017-08-28T02:32:58.000-04:00"/>
+            </meta>
+            <language value="ar"/>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml"> 
+                  <p>Patient Jen Test</p> 
+               </div>
+            </text>
+            <identifier>
+               <use value="usual"/>
+               <value value="jen.test"/>
+            </identifier>
+            <active value="true"/>
+            <name>
+               <family value="Test"/>
+               <given value="Jen"/>
+            </name>
+            <telecom>
+               <system value="phone"/>
+               <value value="(11) 1111 1111"/>
+               <use value="home"/>
+            </telecom>
+            <telecom>
+               <value value="(22) 2222 2222"/>
+            </telecom>
+            <gender value="male"/>
+            <birthDate value="2017-08-28"/>
+            <deceasedBoolean value="false"/>
+            <address>
+               <use value="home"/>
+               <type value="both"/>
+               <line value="1111 Washtenaw"/>
+               <city value="Ann Harbor"/>
+               <district value="Washtenaw"/>
+               <state value="MI"/>
+               <postalCode value="48104"/>
+               <country value="US"/>
+            </address>
+            <maritalStatus>
+               <coding>
+                  <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+                  <code value="S"/>
+               </coding>
+            </maritalStatus>
+            <multipleBirthInteger value="84"/>
+         </Patient>
+      </resource>
+      <search>
+         <mode value="match"/>
+      </search>
+   </entry>
+   <entry>
+      <fullUrl value="http://fhir.hl7fundamentals.org/baseDstu3/Patient/397"/>
+      <resource>
+         <Patient xmlns="http://hl7.org/fhir">
+            <id value="397"/>
+            <meta>
+               <versionId value="12"/>
+               <lastUpdated value="2017-09-07T01:51:52.000-04:00"/>
+            </meta>
+            <language value="en-GB"/>
+            <text>
+               <status value="generated"/>
+            </text>
+            <identifier>
+               <use value="official"/>
+               <value value="jeremy.nix"/>
+            </identifier>
+            <active value="false"/>
+            <name>
+               <use value="official"/>
+               <text value="Jeremy Nix"/>
+               <family value="Nix"/>
+               <given value="Jeremy"/>
+            </name>
+            <telecom>
+               <system value="phone"/>
+               <value value="(03) 5555 6789"/>
+               <use value="home"/>
+            </telecom>
+            <gender value="other"/>
+            <birthDate value="2017-09-07"/>
+            <deceasedDateTime value="2017-09-07T01:51:52.199Z"/>
+            <address>
+               <use value="home"/>
+               <type value="both"/>
+               <text value="3300 Washtenaw, Ann Harbor, MI 48104"/>
+               <line value="3300 Washtenaw"/>
+               <city value="Ann Harbor"/>
+               <district value="Washtenaw"/>
+               <state value="MI"/>
+               <postalCode value="48104"/>
+               <country value="US"/>
+               <period>
+                  <start value="1974-12-25"/>
+               </period>
+            </address>
+            <maritalStatus>
+               <coding>
+                  <system value="http://hl7.org/fhir/v3/MaritalStatus"/>
+                  <code value="S"/>
+               </coding>
+            </maritalStatus>
+            <multipleBirthBoolean value="false"/>
+            <managingOrganization>
+               <reference value="Organization/824"/>
+            </managingOrganization>
+         </Patient>
+      </resource>
+      <search>
+         <mode value="match"/>
+      </search>
+   </entry>
+   <entry>
+      <fullUrl value="http://fhir.hl7fundamentals.org/baseDstu3/Patient/415"/>
+      <resource>
+         <Patient xmlns="http://hl7.org/fhir">
+            <id value="415"/>
+            <meta>
+               <versionId value="6"/>
+               <lastUpdated value="2017-11-27T20:52:05.000-05:00"/>
+            </meta>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <div class="hapiHeaderText">Eric 
+                     <b>ELIGIO </b>
+                  </div>
+                  <table class="hapiPropertyTable">
+                     <tbody>
+                        <tr>
+                           <td>Identifier</td>
+                           <td>eric.eligio</td>
+                        </tr>
+                        <tr>
+                           <td>Address</td>
+                           <td>
+                              <span>3300 Washtenaw </span>
+                              <br/>
+                              <span>Ann Harbor </span>
+                              <span>MI </span>
+                              <span>US </span>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Date of birth</td>
+                           <td>
+                              <span>25 December 1974</span>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </text>
+            <identifier>
+               <use value="usual"/>
+               <value value="eric.eligio"/>
+            </identifier>
+            <active value="true"/>
+            <name>
+               <use value="official"/>
+               <family value="Eligio"/>
+               <given value="Eric"/>
+            </name>
+            <telecom>
+               <system value="phone"/>
+               <value value="123"/>
+               <use value="home"/>
+               <rank value="1"/>
+            </telecom>
+            <gender value="male"/>
+            <birthDate value="1974-12-25"/>
+            <deceasedBoolean value="false"/>
+            <address>
+               <use value="home"/>
+               <type value="both"/>
+               <line value="123 Sesame Street"/>
+               <city value="Awesomecity"/>
+               <state value="FL"/>
+               <postalCode value="32222"/>
+               <country value="US"/>
+               <period>
+                  <start value="1974-12-25"/>
+               </period>
+            </address>
+         </Patient>
+      </resource>
+      <search>
+         <mode value="match"/>
+      </search>
+   </entry>
+   <entry>
+      <fullUrl value="http://fhir.hl7fundamentals.org/baseDstu3/Patient/416"/>
+      <resource>
+         <Patient xmlns="http://hl7.org/fhir">
+            <id value="416"/>
+            <meta>
+               <versionId value="2"/>
+               <lastUpdated value="2017-04-14T22:45:21.000-04:00"/>
+            </meta>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml"> 
+                  <p>Patient Rumpa Giri</p> 
+               </div>
+            </text>
+            <identifier>
+               <use value="usual"/>
+               <value value="Rumpa Giri"/>
+            </identifier>
+            <name>
+               <family value="Giri"/>
+               <given value="Rumpa"/>
+            </name>
+            <telecom>
+               <system value="phone"/>
+               <value value="9492943661"/>
+               <use value="home"/>
+            </telecom>
+            <gender value="female"/>
+            <birthDate value="1945-08-08"/>
+            <address>
+               <extension url="http://hl7.org/fhir/StructuredDefinition/us-core-county">
+                  <valueString value="CA"/>
+               </extension>
+               <line value="688 Dell Street"/>
+               <city value="Solana Beach"/>
+               <state value="CA"/>
+               <postalCode value="92075"/>
+               <country value="US"/>
+            </address>
+         </Patient>
+      </resource>
+      <search>
+         <mode value="match"/>
+      </search>
+   </entry>
+</Bundle>

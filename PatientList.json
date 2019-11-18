@@ -1,0 +1,672 @@
+{
+  "resourceType": "Bundle",
+  "id": "90410b20-b81e-44aa-b976-ada99cd6fb8d",
+  "meta": {
+    "lastUpdated": "2018-10-27T18:05:59.000-04:00"
+  },
+  "type": "searchset",
+  "total": 7069,
+  "link": [
+    {
+      "relation": "self",
+      "url": "http://fhir.hl7fundamentals.org/baseDstu3/Patient"
+    },
+    {
+      "relation": "next",
+      "url": "http://fhir.hl7fundamentals.org/baseDstu3?_getpages=fb498068-094f-48c1-a147-c777d6832c32&_getpagesoffset=10&_count=10&_pretty=true&_bundletype=searchset"
+    }
+  ],
+  "entry": [
+    {
+      "fullUrl": "http://fhir.hl7fundamentals.org/baseDstu3/Patient/52",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "52",
+        "meta": {
+          "versionId": "23",
+          "lastUpdated": "2018-10-10T09:40:18.000-04:00"
+        },
+        "language": "de-AT",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n                  <div class=\"hapiHeaderText\">Pen \n                     <b>KIKU </b>\n                  </div>\n                  <table class=\"hapiPropertyTable\">\n                     <tbody>\n                        <tr>\n                           <td>Identifier</td>\n                           <td>444444</td>\n                        </tr>\n                        <tr>\n                           <td>Address</td>\n                           <td>\n                              <span>234 Main Street </span>\n                              <br/>\n                              <span>Freehold TEST </span>\n                              <span>CA </span>\n                              <span>USA </span>\n                           </td>\n                        </tr>\n                        <tr>\n                           <td>Date of birth</td>\n                           <td>\n                              <span>13 May 2017</span>\n                           </td>\n                        </tr>\n                     </tbody>\n                  </table>\n               </div>"
+        },
+        "identifier": [
+          {
+            "system": "http://myidentifier.com/patientIds",
+            "value": "444444"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "kiku",
+            "given": [
+              "Pen"
+            ]
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2018-09-23",
+        "deceasedDateTime": "2018-09-23T06:10:40.613Z",
+        "address": [
+          {
+            "line": [
+              "234 Main Street"
+            ],
+            "city": "Freehold TES 123T",
+            "state": "CA",
+            "country": "USA"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v3/MaritalStatus",
+              "code": "S"
+            }
+          ]
+        },
+        "multipleBirthBoolean": false
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7fundamentals.org/baseDstu3/Patient/159",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "159",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2017-05-28T01:36:36.000-04:00"
+        },
+        "language": "pt-BR",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n                  <p> \n                     <b>Generated Narrative with Details</b> \n                  </p> \n                  <p> \n                     <b>identifier</b>: HOSP-${CD9}${D5} (USUAL)\n                  </p> \n                  <p> \n                     <b>name</b>: Mary Chambers (OFFICIAL)\n                  </p> \n                  <p> \n                     <b>gender</b>: female\n                  </p> \n                  <p> \n                     <b>birthDate</b>: Aug 17, 1972\n                  </p> \n                  <p> \n                     <b>deceased</b>: false\n                  </p> \n                  <p> \n                     <b>address</b>: 123 North 102nd Street Apt 4d Harrisburg PA 17102 USA (HOME)\n                  </p> \n               </div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "http://happyvalley.com/patient",
+            "value": "HOSP-${CD9}${D5}"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Chambers",
+            "given": [
+              "Mary"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "2017-05-28",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "123 North 102nd Street",
+              "Apt 4d"
+            ],
+            "city": "Harrisburg",
+            "state": "PA",
+            "postalCode": "17102",
+            "country": "USA"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v3/MaritalStatus",
+              "code": "S"
+            }
+          ]
+        },
+        "multipleBirthInteger": 48
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7fundamentals.org/baseDstu3/Patient/346",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "346",
+        "meta": {
+          "versionId": "11",
+          "lastUpdated": "2017-07-16T01:53:42.000-04:00"
+        },
+        "language": "en-GB",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n                  <div class=\"hapiHeaderText\">William \n                     <b>SHUMAN </b>\n                  </div>\n                  <table class=\"hapiPropertyTable\">\n                     <tbody>\n                        <tr>\n                           <td>Identifier</td>\n                           <td>william.shuman</td>\n                        </tr>\n                        <tr>\n                           <td>Address</td>\n                           <td>\n                              <span>3300 Washtenaw </span>\n                              <br/>\n                              <span>Ann Harbor </span>\n                              <span>MI </span>\n                              <span>US </span>\n                           </td>\n                        </tr>\n                        <tr>\n                           <td>Date of birth</td>\n                           <td>\n                              <span>01 January 2001</span>\n                           </td>\n                        </tr>\n                     </tbody>\n                  </table>\n               </div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "system": "http://hl7fundamentals.org",
+            "value": "william.shuman"
+          }
+        ],
+        "active": false,
+        "name": [
+          {
+            "use": "official",
+            "family": "Shuman",
+            "given": [
+              "William"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(03) 5555 6789",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2017-07-16",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "use": "home",
+            "line": [
+              "3300 Washtenaw"
+            ],
+            "city": "Ann Harbor",
+            "district": "Washtenaw",
+            "state": "MI",
+            "postalCode": "48104",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v3/MaritalStatus",
+              "code": "S"
+            }
+          ]
+        },
+        "multipleBirthBoolean": false,
+        "managingOrganization": {
+          "reference": "Organization/824"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7fundamentals.org/baseDstu3/Patient/347",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "347",
+        "meta": {
+          "versionId": "28",
+          "lastUpdated": "2017-07-19T01:55:12.000-04:00"
+        },
+        "language": "ru-RU",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> Michael Spillane Id # michael.spillane </div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "value": "michael.spillane"
+          }
+        ],
+        "active": false,
+        "name": [
+          {
+            "family": "Spillane",
+            "given": [
+              "Michael"
+            ]
+          },
+          {
+            "use": "usual",
+            "given": [
+              "Mike",
+              "Joseph"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(03) 5555 6789",
+            "use": "home"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2017-07-19",
+        "deceasedBoolean": true,
+        "address": [
+          {
+            "extension": [
+              {
+                "url": "https://www.hl7.org/fhir/extension-us-core-county.html",
+                "valueString": "Washtenaw"
+              }
+            ],
+            "line": [
+              "3300 Washtenaw"
+            ],
+            "city": "Ann Harbor",
+            "state": "MI",
+            "postalCode": "48104",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v3/MaritalStatus",
+              "code": "S"
+            }
+          ]
+        },
+        "multipleBirthInteger": 49,
+        "communication": [
+          {
+            "language": {
+              "coding": [
+                {
+                  "system": "urn:std:iso:639-1",
+                  "code": "en",
+                  "display": "English"
+                }
+              ],
+              "text": "English"
+            }
+          }
+        ],
+        "managingOrganization": {
+          "reference": "Organization/2552"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7fundamentals.org/baseDstu3/Patient/356",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "356",
+        "meta": {
+          "versionId": "5",
+          "lastUpdated": "2018-04-16T17:00:39.000-04:00"
+        },
+        "language": "zh-TW",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <div class=\"hapiHeaderText\">Scott <b>KIRBY </b>\n         </div>\n         <table class=\"hapiPropertyTable\">\n            <tbody>\n               <tr>\n                  <td>Identifier</td>\n                  <td>scott.kirby</td>\n               </tr>\n               <tr>\n                  <td>Address</td>\n                  <td>\n                     <span>3300 Washtenaw </span>\n                     <br/>\n                     <span>Ann Harbor </span>\n                     <span>MI </span>\n                     <span>US </span>\n                  </td>\n               </tr>\n               <tr>\n                  <td>Date of birth</td>\n                  <td>\n                     <span>25 May 1984</span>\n                  </td>\n               </tr>\n            </tbody>\n         </table>\n      </div>"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "value": "scott.kirby"
+          }
+        ],
+        "active": false,
+        "name": [
+          {
+            "use": "usual",
+            "family": "Kirby",
+            "given": [
+              "Scott"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "value": "(03) 4444 4444",
+            "use": "home"
+          }
+        ],
+        "gender": "unknown",
+        "birthDate": "2017-08-01",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "line": [
+              "4444 Fhir Street"
+            ],
+            "city": "Springfield",
+            "district": "Washtenaw",
+            "state": "VT",
+            "postalCode": "48104",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v3/MaritalStatus",
+              "code": "S"
+            }
+          ]
+        },
+        "multipleBirthBoolean": true
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7fundamentals.org/baseDstu3/Patient/370",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "370",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2017-08-13T01:58:13.000-04:00"
+        },
+        "language": "nl-NL",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n                  <div class=\"hapiHeaderText\">Caro \n                     <b>EMERALD </b>\n                  </div>\n                  <table class=\"hapiPropertyTable\">\n                     <tbody/>\n                  </table>\n               </div>"
+        },
+        "active": true,
+        "name": [
+          {
+            "family": "Emerald",
+            "given": [
+              "Caro"
+            ]
+          }
+        ],
+        "gender": "other",
+        "birthDate": "2017-08-13",
+        "deceasedBoolean": false,
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v3/MaritalStatus",
+              "code": "S"
+            }
+          ]
+        },
+        "multipleBirthBoolean": false
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7fundamentals.org/baseDstu3/Patient/389",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "389",
+        "meta": {
+          "versionId": "3",
+          "lastUpdated": "2017-08-28T02:32:58.000-04:00"
+        },
+        "language": "ar",
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"> \n                  <p>Patient Jen Test</p> \n               </div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "value": "jen.test"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "family": "Test",
+            "given": [
+              "Jen"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(11) 1111 1111",
+            "use": "home"
+          },
+          {
+            "value": "(22) 2222 2222"
+          }
+        ],
+        "gender": "male",
+        "birthDate": "2017-08-28",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "type": "both",
+            "line": [
+              "1111 Washtenaw"
+            ],
+            "city": "Ann Harbor",
+            "district": "Washtenaw",
+            "state": "MI",
+            "postalCode": "48104",
+            "country": "US"
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v3/MaritalStatus",
+              "code": "S"
+            }
+          ]
+        },
+        "multipleBirthInteger": 84
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7fundamentals.org/baseDstu3/Patient/397",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "397",
+        "meta": {
+          "versionId": "12",
+          "lastUpdated": "2017-09-07T01:51:52.000-04:00"
+        },
+        "language": "en-GB",
+        "text": {
+          "status": "generated"
+        },
+        "identifier": [
+          {
+            "use": "official",
+            "value": "jeremy.nix"
+          }
+        ],
+        "active": false,
+        "name": [
+          {
+            "use": "official",
+            "text": "Jeremy Nix",
+            "family": "Nix",
+            "given": [
+              "Jeremy"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "(03) 5555 6789",
+            "use": "home"
+          }
+        ],
+        "gender": "other",
+        "birthDate": "2017-09-07",
+        "deceasedDateTime": "2017-09-07T01:51:52.199Z",
+        "address": [
+          {
+            "use": "home",
+            "type": "both",
+            "text": "3300 Washtenaw, Ann Harbor, MI 48104",
+            "line": [
+              "3300 Washtenaw"
+            ],
+            "city": "Ann Harbor",
+            "district": "Washtenaw",
+            "state": "MI",
+            "postalCode": "48104",
+            "country": "US",
+            "period": {
+              "start": "1974-12-25"
+            }
+          }
+        ],
+        "maritalStatus": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/v3/MaritalStatus",
+              "code": "S"
+            }
+          ]
+        },
+        "multipleBirthBoolean": false,
+        "managingOrganization": {
+          "reference": "Organization/824"
+        }
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7fundamentals.org/baseDstu3/Patient/415",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "415",
+        "meta": {
+          "versionId": "6",
+          "lastUpdated": "2017-11-27T20:52:05.000-05:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div class=\"hapiHeaderText\">Eric <b>ELIGIO </b></div><table class=\"hapiPropertyTable\"><tbody><tr><td>Identifier</td><td>eric.eligio</td></tr><tr><td>Address</td><td><span>3300 Washtenaw </span><br/><span>Ann Harbor </span><span>MI </span><span>US </span></td></tr><tr><td>Date of birth</td><td><span>25 December 1974</span></td></tr></tbody></table></div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "value": "eric.eligio"
+          }
+        ],
+        "active": true,
+        "name": [
+          {
+            "use": "official",
+            "family": "Eligio",
+            "given": [
+              "Eric"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "123",
+            "use": "home",
+            "rank": 1
+          }
+        ],
+        "gender": "male",
+        "birthDate": "1974-12-25",
+        "deceasedBoolean": false,
+        "address": [
+          {
+            "use": "home",
+            "type": "both",
+            "line": [
+              "123 Sesame Street"
+            ],
+            "city": "Awesomecity",
+            "state": "FL",
+            "postalCode": "32222",
+            "country": "US",
+            "period": {
+              "start": "1974-12-25"
+            }
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    },
+    {
+      "fullUrl": "http://fhir.hl7fundamentals.org/baseDstu3/Patient/416",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "416",
+        "meta": {
+          "versionId": "2",
+          "lastUpdated": "2017-04-14T22:45:21.000-04:00"
+        },
+        "text": {
+          "status": "generated",
+          "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n            <p>Patient Rumpa Giri</p>\n        </div>"
+        },
+        "identifier": [
+          {
+            "use": "usual",
+            "value": "Rumpa Giri"
+          }
+        ],
+        "name": [
+          {
+            "family": "Giri",
+            "given": [
+              "Rumpa"
+            ]
+          }
+        ],
+        "telecom": [
+          {
+            "system": "phone",
+            "value": "9492943661",
+            "use": "home"
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1945-08-08",
+        "address": [
+          {
+            "extension": [
+              {
+                "url": "http://hl7.org/fhir/StructuredDefinition/us-core-county",
+                "valueString": "CA"
+              }
+            ],
+            "line": [
+              "688 Dell Street"
+            ],
+            "city": "Solana Beach",
+            "state": "CA",
+            "postalCode": "92075",
+            "country": "US"
+          }
+        ]
+      },
+      "search": {
+        "mode": "match"
+      }
+    }
+  ]
+}
